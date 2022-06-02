@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    margin: 15px 100px;
+    padding: 20px 60px;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+}
+
+.header ul li{
+    display: inline-block;
+    padding-right: 30px;
+    margin-right: 100px;
+    color: black;
+    font-weight: 500;
+}
+
+.header ul li a{
+    text-decoration: none;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 150px;
+    background-color: blueviolet;
+    padding: 30px 100px;
+    border-radius: 20px;
+    
+}
+
+.col1 h1{
+    font-size: 40px;
+    color: aliceblue;
+}
+
+.col1 p{
+    margin-top: 20px;
+    color: aliceblue;
+}
+
+.col1 h3{
+    font-size: 30px;
+    margin-top: 20px;
+    color: aliceblue;
+}
+
+.col1 .btn{
+    margin-top: 20px;
+    background: brown;
+    padding: 10px 30px;
+    display: inline-block;
+    border: none;
+    color: white;
+    border-radius: 8px;
+}
+
+image{
+   
+    align-items: center;
+}
+
+h2{
+    margin: 50px 200px;
+    font-size: 30px;
+}
+
+.row2{
+    margin: 20px 200px;
+    display: flex;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    height: 150px;
+    padding: 25px 0;
+    border-radius: 20px;
+   
+}
+
+.image2{
+    height: 100px;
+    float: left;
+}
+
+.col2 p{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+
+.row3{
+    display: flex;
+    margin: 0 400px;
+    text-align: center;
+    justify-content: space-between;
+   
+}
+
+.image3{
+    height: 150px;
+}
+
+h3{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+p{
+    margin-top: 15px;
+}
+
+h4{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.btn{
+    margin-top: 20px;
+    background: brown;
+    padding: 10px 30px;
+    display: inline-block;
+    border: none;
+    color: white;
+    border-radius: 8px;
+}
+
+.col3{
+    background-color: rgb(253, 245, 245);
+    height: 480px;
+    width: 350px;
+    border-radius: 15px;
+    padding-top: 20px;
+
+}
+
+.image4{
+    height: 200px;
+}
+
+.col4{
+    background-color: rgb(253, 245, 245);
+    height: 480px;
+    width: 350px;
+    border-radius: 15px;
+    padding-top: 20px;
+    justify-content: space-between;
+    margin-left: 3px;
+    
+}
+
+.footer{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.footer p{
+    margin-top: 30px;
+    line-height: 35px;
+}
+
+span{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+
+
+
